@@ -157,9 +157,13 @@ h2:hover {background-color:rgba(128, 128, 128, 0.185)}
 
 <!--------JAVA SCRIPT------->
 <h2>This JavaScript</h2>
-<p >Hello and Welcome to Java</p>
+<p id="demo">Hello and Welcome to Java</p>
+<script>
+function myfunction()
+{document.getElementById("demo").style.color = "yellow";   }
+<button type="button" onclick="myfunction()">Click me</button>
 
-<script></script>
+</script>
 
 
 
